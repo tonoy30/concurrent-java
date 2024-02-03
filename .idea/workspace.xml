@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b8755b9-6079-43d4-a14a-834101c03790" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/tonoy/threadpool/TextCopier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/tonoy/threadpool/TextCopierApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/tonoy/threadpool/Watch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/tonoy/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tonoy/server/Server.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b8755b9-6079-43d4-a14a-834101c03790" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +84,7 @@
       <workItem from="1706423098754" duration="4894000" />
       <workItem from="1706495667246" duration="4204000" />
       <workItem from="1706940654554" duration="3710000" />
-      <workItem from="1706947167677" duration="9771000" />
+      <workItem from="1706947167677" duration="10326000" />
     </task>
     <servers />
   </component>
