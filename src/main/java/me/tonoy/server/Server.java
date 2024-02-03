@@ -5,6 +5,8 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 public class Server {
     private static final String DOCUMENT = "<html>" +
@@ -31,14 +33,12 @@ public class Server {
         }
     }
 
-    public static void main(String[] args) {
-        try (ServerSocket serverSocket = new ServerSocket(8000)) {
-            while (true) {
-                Socket conn = serverSocket.accept();
-                serveRequest(conn);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+    public static void main(String[] args) throws IOException {
+        ServerSocket serverSocket = new ServerSocket(8000);
+        Executor executor = Executors.newFixedThreadPool(10);
+        while (true) {
+            Socket conn = serverSocket.accept();
+            executor.execute(() -> serveRequest(conn));
         }
     }
 
